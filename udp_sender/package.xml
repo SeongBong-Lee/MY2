@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+<package format="3">
+  <name>udp_sender_node</name>
+  <version>0.0.0</version>
+  <description>The UDP Sender Node</description>
+  
+  <maintainer email="youremail@example.com">Your Name</maintainer>
+  
+  <license>MIT</license>
+  
+  <buildtool_depend>catkin</buildtool_depend>
+  
+  <depend>roscpp</depend>
+  <depend>interfaces_msgs</depend>
+  
+  <export>
+  </export>
+</package>

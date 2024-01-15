@@ -1,0 +1,14 @@
+<launch>
+  <!-- 노드 그룹 정의 -->
+  <group ns="hdrt">
+    <!-- 실행할 navigation_interface 노드 -->
+    <!--node name="navigation_interface" pkg="navigation_interface" type="nav_interface" output="screen" /-->
+
+    <!-- 실행할 multi function 노드 -->
+    <node name="multi_function" pkg="multi_function" type="multi_function" output="screen">
+    <!-- 파라미터로 초기 위치와 방향 정보 설정 -->
+    <!--param name="initial_pose_yaml" type="str" value="$(find multi_function)/config/initial_pose.yaml" /-->
+  </node>
+
+  </group>
+</launch>

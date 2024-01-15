@@ -1,0 +1,7 @@
+<launch>
+  <!-- 실행할 multi_function 노드 -->
+  <node name="multi_function" pkg="multi_function" type="multi_function" output="screen">
+    <!-- 파라미터로 초기 위치와 방향 정보 설정 -->
+    <param name="initial_pose_yaml" type="str" value="$(find your_package_name)/config/initial_pose.yaml" />
+  </node>
+</launch>
