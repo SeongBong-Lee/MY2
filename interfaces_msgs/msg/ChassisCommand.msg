@@ -1,0 +1,4 @@
+float64 synctime
+float64 steering_wheel
+float64 desired_vx
+uint8 gear

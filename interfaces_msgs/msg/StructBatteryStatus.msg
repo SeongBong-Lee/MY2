@@ -1,0 +1,4 @@
+uint16 low_battery_vol
+uint16 high_battery_soc
+int16 high_battery_temp
+

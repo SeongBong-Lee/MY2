@@ -1,0 +1,6 @@
+float64 synctime
+NavigationDetail navigation
+uint16 sensor_type
+uint8 layer_count
+uint64 total_point_no
+StructSensorLidarRTheta[] lidar_data

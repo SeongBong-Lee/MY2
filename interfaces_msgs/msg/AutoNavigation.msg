@@ -1,0 +1,2 @@
+float64 synctime
+NavigationDetail nav_detail

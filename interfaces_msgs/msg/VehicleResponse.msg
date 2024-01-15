@@ -1,0 +1,16 @@
+float64 timestamp
+uint8 estop_status
+
+uint16 platform_status
+uint8 platfrom_intmodact
+uint8 platform_diagnosis
+
+StructMileageInfomation mileage_info
+
+uint8 actualgear_and_mode
+uint8 actual_speed_limit
+uint16 accelator
+
+StructSpeedInfomation speed_info
+StructBatteryStatus battery_status
+StructEngineStatus engine_status

@@ -1,0 +1,6 @@
+uint32 total_distance
+uint16 current_distance
+uint32 total_operation_time
+uint16 current_operation_time
+uint32 total_engine_operation_time
+uint16 current_engine_operation_time

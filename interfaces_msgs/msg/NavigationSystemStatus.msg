@@ -1,0 +1,6 @@
+float64 timestamp
+NavigationStatus nav_status
+GpsStatus gps_status
+SatelliteStatus satellite_status
+
+

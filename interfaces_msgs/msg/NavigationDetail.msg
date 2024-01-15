@@ -1,0 +1,14 @@
+float64 timestamp
+ZoneChar zone_char
+float64 east
+float64 north
+float64 elevation
+float64 roll
+float64 pitch
+float64 heading
+float64 l_velocity_x
+float64 l_velocity_y
+float64 l_velocity_z
+float64 a_velocity_x
+float64 a_velocity_y
+float64 a_velocity_z
